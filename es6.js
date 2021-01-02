@@ -71,7 +71,7 @@ document.getElementById('book-form').addEventListener('submit', function (e) {
     if (title === '' || author === '' || isbn === '') {
         ui.showMessage('You need to enter all fields', 'error');
         ui.clearFields();
-
+        // So it does not go further with adding
         return;
     } else if (isNaN(isbn)) {
         ui.showMessage(

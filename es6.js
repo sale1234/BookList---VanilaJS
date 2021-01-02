@@ -21,6 +21,7 @@ class UI {
         bookList.appendChild(row);
     }
 
+    // Clearing fields in book list
     clearFields() {
         document.getElementById('title').value = '';
         document.getElementById('author').value = '';

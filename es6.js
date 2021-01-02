@@ -78,6 +78,8 @@ document.getElementById('book-form').addEventListener('submit', function (e) {
             'You need to fill ISBN field with number not a letter',
             'error'
         );
+
+        return;
     } else {
         ui.showMessage('You have succeeded', 'success');
     }

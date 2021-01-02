@@ -55,7 +55,7 @@ document.getElementById('book-form').addEventListener('submit', function (e) {
     const title = document.getElementById('title').value,
         author = document.getElementById('author').value,
         isbn = document.getElementById('isbn').value;
-
+    // haha
     // Creating a book
     const book = new Book(title, author, isbn);
 
